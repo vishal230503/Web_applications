@@ -1,0 +1,22 @@
+
+
+
+
+<h1 style="color:red;text-align:center">Html to Servlet Communication Using hyperlinks</h1>
+
+<form name="frm" action="countryurl" method="GET">
+	Select cities name :: <select name="cities" onchange="sendRequest()">
+												<option value="" selected>---select---</option>
+												<option value="0">Mumbai</option>
+												<option value="1">Lahore</option>
+												<option value="2">Wuhan</option>								
+											</select>
+</form>
+
+<script language="JavaScript">
+	function sendResquest() {
+		frm.submit();
+	}
+</script>
+
+
