@@ -1,0 +1,20 @@
+
+
+
+
+<h1  style="color:red;text-align:center">Html to Servlet communication using forms</h1>
+
+
+<!--  Link the JS file with html form page -->
+<script language="JavaScript" src="js/validation.js">
+    
+</script>
+
+<form action="voterurl" method="POST"  onsubmit="return validate(this)">
+    Person name :: <input type="text" name="pname"> <span id="pnameErr" style="color:red"></span> <br>
+    Person address :: <input type="text" name="paddrs"> <br>
+     Person age :: <input type="password" name="page"><span id="pageErr" style="color:red"></span> <br>
+     <input  type="hidden"  name="vflag"  value="no"/>
+    <input type="submit" value="CheckVotingElgibility" >    
+</form>
+
