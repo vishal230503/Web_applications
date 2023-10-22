@@ -26,5 +26,4 @@ public class GetCityServlet extends HttpServlet {
 		
 		pw.close();
 	}
-	
 }
